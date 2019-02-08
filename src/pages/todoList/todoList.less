@@ -1,0 +1,35 @@
+
+.border{
+    padding:30rpx 20rpx;
+    margin: 10rpx 10rpx;
+}
+.borderR{
+    border-radius: 30rpx;
+    border: 1px solid skyblue;
+    width: 160rpx;
+    text-align: center;
+}
+
+.todoList{
+    .input{
+        border: 1px solid black;
+        width: 400rpx;
+        border-radius: 30rpx;
+        display: inline-block;
+        .border;
+    }
+    .addItem{
+        margin: 10rpx 10rpx;
+        display: inline-block;
+        width: 200rpx;
+        border-radius: 30rpx;
+        background-color: skyblue;
+    }
+    .title,.listItem{
+        .border;
+    }
+    .del{
+        float: right;
+        .borderR;
+    }
+}

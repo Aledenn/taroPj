@@ -13,8 +13,8 @@ class App extends Component {
 
   config = {
     pages: [
+      'pages/todoList/todoList',
       'pages/index/index',
-      'pages/todoList/todoList'
     ],
     window: {
       backgroundTextStyle: 'light',
